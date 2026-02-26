@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My pagina</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Formulario</h1>
+</body>
+<form action="" method="post">
+    <label for="name">Nombre</label>
+    <input type="text" required minlength="3" placeholder="Escriba su nombre">
+    <br>
+    <label for="">correo</label>
+    <input type="email" placeholder="Example@gmail.com">
+    <br>
+    <label for="">contraseña</label>
+    <input type="password" required pattern="[0-9]{10}">
+    <br>
+    <label for="msg">mensaje</label>
+    <textarea name="msg" id=""></textarea>
+    <br>
+    <label for="">Fecha de Nacimiento</label>
+    <input type="date">
+    <br>
+<fieldset>
+    <legend>Información adicional</legend>
+    <label for="Telefono">Telefono</label>
+    <input type="Tel">
+</fieldset>
+    <br>
+    <input type="submit" value="Enviar"> 
+    <input type="reset" value="Borrar">
+</form>
+</html>
