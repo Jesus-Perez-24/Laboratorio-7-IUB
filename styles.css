@@ -20,3 +20,8 @@ legend{
 img{
     justify-content: right;
 }
+div{
+    justify-content: right;
+    display: flex;
+    flex-direction: column;
+}
